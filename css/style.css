@@ -1,0 +1,465 @@
+*{
+	box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+}
+.header{
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    justify-items: right;
+    align-items: center;
+}
+
+.LeftHeader{
+    display: grid;
+    grid-template-columns: 2fr 1fr 3fr;
+    justify-items: center;
+    align-items: center;
+}
+.qwerty3{
+    margin-right: 40%;
+}
+.headerIcon1{
+    margin-left: auto;
+    width: 80px;
+    max-width: 150px;
+    vertical-align: middle;
+    border-style: none;
+    
+}
+.headerIcon2{
+    width: 250px;
+    max-width: 3000px;
+   
+}
+.headerIcon3{
+    width: 80px;
+    max-width: 150px;
+    vertical-align: middle;
+    border-style: none;
+}
+.RightHeader{
+    margin-right: 15%;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    justify-items: center;
+    align-items: center;
+    padding: 5% 0% 5% 0%;
+    color: #00309d;
+    text-align: center;
+}
+.header{
+    text-align: center;
+}
+.Body{
+    background-color: #00665c;
+    
+}
+.TopNawigation{
+    display: grid;
+    grid-template-columns: 2fr 1fr 0.5fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+.NawigRow1{
+    justify-self: end;
+}
+.NawigRow4{
+    justify-self: start;
+}
+.NawigationText{
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    margin: 10px 0 10px 0;
+    border: .1rem #00309d solid;
+    color: black;
+    text-decoration: none;
+}
+.NawigationText:hover{
+    font-size: 1.2rem;
+}
+.BottomNawigation{
+    display: grid;
+    grid-template-columns: 1.35fr 0.8fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.Banner{
+    background: transparent url(../css/img/baner.png) no-repeat center center;
+    padding: 5% 0 0 5%;
+    height: 40rem
+    
+}
+.BannerText{
+    color: white;
+    font-size: 35px;
+}
+.slider{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 2fr 2fr 0.5fr;
+    padding: 2% 2%;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.CartImg{
+    width: 300px;
+    height: 200px;
+    max-width: 400px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+    border: .1rem #00309d solid;
+}
+.Strelka{
+    border-radius: 5px;
+    border: .1rem #00309d solid;
+}
+.Strelka1{
+    justify-self: end;
+    margin-right: 1rem;
+}
+.Strelka2{
+    justify-self: start;
+    margin-left: 1rem;
+}
+.Cart1{
+    background-color: white;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    border: .1rem #00309d solid;
+    justify-self: end;
+}
+.Cart3{
+    background-color: white;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    border: .1rem #00309d solid;
+    justify-self: start;
+}
+.Cart{
+    display: grid;
+    grid-template-rows: 1fr 0.4fr 0.4fr ;
+
+    background-color: white;
+    padding: 1.5rem 1rem 0 1rem;
+    border-radius: 10px;
+    border: .1rem #00309d solid;
+    margin: 0 10px 0 10px;
+}
+.TextCart{
+    justify-items: center;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 3%;
+}
+.ty{
+    margin: 10% 0 10% 0;
+}
+.Yo{
+    text-align: center;
+}
+.NawigationText1{
+    font-size: 30px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+    background-color: #009183;
+    padding: 0.5rem 1rem;
+    margin: 10px 0 10px 0;
+    border: .1rem #00309d solid;
+}
+.InfoBanner{
+    background-color: white;
+    padding: 1.5rem 1rem;
+    border-radius: 10px;
+    border: .1rem #00309d solid;
+    margin: 0 7% 0 7%;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+.InfoText{
+    font-size: 40px;
+    margin: 2% 0 4% 0;
+    
+}
+.InfoButton{
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+    font-size: 1rem;
+    background-color: #009183;
+    padding: 0.5rem 1rem;
+    margin: 10px 40% 10px 40%;
+    border: .1rem #00309d solid;
+} 
+.InfoButton:hover{
+    padding: 0.7rem 1rem;
+    margin: 10px 39% 10px 39%;
+    background-color: #008477;
+}
+.ImgBanner{
+    margin-top: 2%;
+    height: 10rem;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.NewsText{
+    margin-top: 2%;
+    color: white;
+    font-size: 35px;
+    padding-bottom: 1%;
+    justify-self: center;
+    text-align: center;
+}
+.NewsCart{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 2fr 2fr 0.5fr;
+    align-items: center;
+}
+.imgban{
+    height: 100%;
+    width: 100%;
+}
+.imgban1{
+    border-radius: 10px;
+    height: 80%;
+    width: 80%;
+}
+.Pyt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 10% 0 10%;
+    text-align: center;   
+}
+.PytTime{
+    margin-right: 5%;
+}
+.pytimg{
+    justify-self: center;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    margin-top: 4%;
+    border-radius: 10px;
+    height: 80%;
+    width: 80%;
+}
+.Way{
+    padding-bottom: 5%;
+}
+.BannerTextM{
+    margin-left: 10%;
+}
+.InfoInfo{
+    background-color: white;
+    padding: 1.5rem 1.5rem;
+    border-radius: 10px;
+    border: .1rem #00309d solid;
+    margin: 0 7% 0 7%;
+    justify-items: center;
+    align-items: center;
+}
+.BoldInfoText{
+    font-weight: bold;
+}
+.InfoTextInfo{
+    font-size: 25px;
+    line-height: 46px;
+}
+.Ma{
+    margin-top: 2%;
+    padding-bottom: 5%;
+}
+
+.back1{
+    background: transparent url(../css/img/back1.png) no-repeat center center;
+    padding-bottom: 40%;
+    height: 100%;
+    /*margin-bottom: 20%;*/
+    padding-top: 5%;
+    /*padding-bottom: 10%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;*/
+    
+}
+.back2{
+    background: transparent url(../css/img/back2.png) no-repeat center center;
+    padding-bottom: 40%;
+    margin-top: 2%;
+    
+}
+.BannerTextMa{
+    margin-left: 10%;
+}
+.PriseText{
+    
+    font-size: 20px;
+    line-height: 46px;
+}
+.PriseT{
+    text-align: center;
+}
+.PriseColumn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.StartColumn{
+    justify-self: end;
+}
+.EndColumn{
+    justify-self: start;
+}
+.Burger{
+    
+    display: none;
+}
+
+/*адаптив мобилка*/
+@media (max-width: 480px){
+    .header{
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .headerIcon1{
+        width: 30px;
+    }
+    .headerIcon2{
+        width: 90px;
+    }
+    .headerIcon3{
+        width: 40px;
+    }
+    .HeaderText{
+        font-size: 5px;
+        
+    }
+    .Burger{
+        display: block;
+        width: 40px;
+    }
+    .RightHeader{
+        line-height: 4px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    .Nawigation{
+        display: none;
+    }
+    .BannerText{
+        font-size: 20px;
+    }
+    .slider{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 0.5fr;
+    }
+    .NewsCart{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 0.5fr;
+    }
+    .del{
+        display: none;
+    }
+    .Strelka{
+        width: 20px;
+    }
+    .Cart{
+        margin: 0;
+    }
+    .CartImg {
+        width: 200px;
+        height: 150px;
+    }
+    .InfoText{
+        font-size: 30px;
+    }
+    .InfoButton{
+        margin: 0;
+    }
+    .imgban{
+        height: 80%;
+        width: 100%;
+    }
+    .aq{
+        margin: 10px 25% 10px 25%;
+    }
+    .imgban1{
+        height: 100%;
+        width: 100%;
+        border-radius: 0;
+    }
+    .Pyt{
+        /*display: block;*/
+        grid-template-columns: 100% 0px;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .fi1{
+        grid-row-start: 1;
+        
+    }
+    .fi2{
+        grid-row: 3;
+    }
+    .fi3{
+        grid-row: 2;
+    }
+    .fi4{
+        grid-row: 4;
+    }
+    .pytimg{
+        size: 100%;
+    }
+    .PytTime{
+        margin: 0;
+    }
+    .footer{
+        display: block;
+    }
+    .mo{
+        width: 80px;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 5%;
+    }
+    .mo1{
+        margin-bottom: 5%;
+    }
+    .Banner{
+        height: 30rem
+    }
+    .InfoTextInfo {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .BannerTextM{
+        padding-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+    }
+    .PriseText {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .back1{
+        padding-bottom: 47%;
+        background-size: contain;
+    }
+    .back2{
+        padding-bottom: 56%;
+        background-size: contain;
+    }
+}
